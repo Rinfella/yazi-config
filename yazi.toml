@@ -36,9 +36,8 @@ rules = [
 [tasks]
 micro_workers = 10
 macro_workers = 25
-bizarre_retry = 5
 suppress_preload = true
-image_alloc = 536870912
+image_alloc = 870912
 
 [plugin]
 preloaders = [
