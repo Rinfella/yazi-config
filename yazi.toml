@@ -1,4 +1,4 @@
-[manager]
+[mgr]
 ratio = [1, 4, 3]
 sort_by = "alphabetical"
 sort_dir_first = true
@@ -27,6 +27,7 @@ play = [
 [open]
 rules = [
   { name = "*.md", use = ["edit"] },
+  { name = "*.pdf", use = ["open"] },
   { name = "*/", use = ["edit", "open"] },
   { mime = "text/*", use = ["edit"] },
   { mime = "image/*", use = ["open"] },

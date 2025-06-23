@@ -15,5 +15,5 @@ use = "catppuccin-mocha"
 
 # Loading the base configuration - actual styling happens in flavors
 # The syntax highlighting theme (if desired)
-[manager]
+[mgr]
 syntect_theme = "nord"
